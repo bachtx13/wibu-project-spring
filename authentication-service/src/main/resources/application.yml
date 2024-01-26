@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: manga-service
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/wibi_project_db
+    username: postgres
+    password: 1312
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8080
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka

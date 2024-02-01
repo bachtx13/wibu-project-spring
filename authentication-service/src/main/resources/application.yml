@@ -1,6 +1,6 @@
 spring:
   application:
-    name: manga-service
+    name: authentication-service
   r2dbc:
     url: r2dbc:postgresql://localhost:5432/wibi_project_db
     username: postgres

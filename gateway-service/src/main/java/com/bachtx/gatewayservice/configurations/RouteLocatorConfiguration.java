@@ -13,7 +13,11 @@ public class RouteLocatorConfiguration {
                 .route("manga-service",
                         (route) -> route.path("/manga/**")
                                 .filters(gatewayFilterSpec -> gatewayFilterSpec.stripPrefix(1))
-                                .uri("http://hb:8080"))
+                                .uri("lb://MANGA-SERVICE"))
+                .route("auth-service",
+                        (route) -> route.path("/auth/**")
+                                .filters(gatewayFilterSpec -> gatewayFilterSpec.stripPrefix(1))
+                                .uri("lb://AUTHENTICATION-SERVICE"))
                 .build();
     }
 }

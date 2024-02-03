@@ -8,10 +8,10 @@ import org.springframework.data.relational.core.mapping.Table;
 
 import java.util.UUID;
 
+@Table
 @AllArgsConstructor
 @Getter
 @Setter
-@Table("role")
 public class Role {
     @Id
     private UUID id;

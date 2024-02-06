@@ -12,4 +12,6 @@ public interface UserMapper {
 
     @Mappings({})
     UserResponse userToUserResponse(User user);
+    @Mappings({})
+    UserResponse registerRequestToUser(User user);
 }

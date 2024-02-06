@@ -1,16 +1,16 @@
 package com.bachtx.authenticationservice.dto.response;
 
+import com.bachtx.authenticationservice.enums.ResponseStatusEnum;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import java.util.UUID;
-
 @NoArgsConstructor
 @AllArgsConstructor
-@Setter
 @Getter
-public class UserResponse {
-    private UUID id;
+@Setter
+public class BaseResponse<T> {
+    private ResponseStatusEnum status;
+    private String message;
+    private T data;
 }

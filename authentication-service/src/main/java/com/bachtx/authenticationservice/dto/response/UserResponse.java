@@ -13,4 +13,5 @@ import java.util.UUID;
 @Getter
 public class UserResponse {
     private UUID id;
+    private String email;
 }

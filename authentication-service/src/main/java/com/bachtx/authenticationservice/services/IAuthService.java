@@ -5,7 +5,7 @@ import com.bachtx.authenticationservice.dto.request.RegisterRequest;
 import com.bachtx.authenticationservice.dto.response.UserResponse;
 import reactor.core.publisher.Mono;
 
-public interface AuthService {
+public interface IAuthService {
     Mono<UserResponse> getUserByEmail(String email);
 
     Mono<UserResponse> register(RegisterRequest registerRequest);

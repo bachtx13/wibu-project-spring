@@ -1,9 +1,9 @@
 package com.bachtx.authenticationservice.controllers.impl;
 
-import com.bachtx.authenticationservice.controllers.AuthController;
+import com.bachtx.authenticationservice.controllers.IAuthController;
 import com.bachtx.authenticationservice.dto.request.RegisterRequest;
 import com.bachtx.authenticationservice.dto.response.UserResponse;
-import com.bachtx.authenticationservice.services.AuthService;
+import com.bachtx.authenticationservice.services.IAuthService;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,9 +17,9 @@ import reactor.core.publisher.Mono;
 @RestController
 @RequestMapping(value = "/")
 @RequiredArgsConstructor
-public class AuthControllerImpl implements AuthController {
-    Logger logger = LoggerFactory.getLogger(AuthController.class);
-    private final AuthService authService;
+public class AuthControllerImpl implements IAuthController {
+    private final IAuthService authService;
+    Logger logger = LoggerFactory.getLogger(IAuthController.class);
 
     @Override
     public Mono<String> helloWorld() {
@@ -29,5 +29,10 @@ public class AuthControllerImpl implements AuthController {
     @Override
     public Mono<UserResponse> register(RegisterRequest registerRequest) {
         return authService.register(registerRequest);
+    }
+
+    @Override
+    public Mono<UserResponse> getUser(String email) {
+        return authService.getUserByEmail(email);
     }
 }

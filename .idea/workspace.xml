@@ -14,17 +14,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ec6e7d2c-0850-4ff6-9256-0e6f51128975" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/controllers/IAuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/controllers/advice/ControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/controllers/advice/ControllerAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/constants/TokenConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/constants/TokenConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/controllers/impl/AuthControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/controllers/impl/AuthControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/dto/request/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/dto/request/RegisterRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/dto/response/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/dto/response/UserResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/exceptions/UserAlreadyExisted.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/exceptions/UserAlreadyExistedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/repostories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/repostories/IUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/services/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/services/IAuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/services/impl/AuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/services/impl/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/dto/response/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/dto/response/BaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/utils/TokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/bachtx/authenticationservice/utils/TokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example-service/src/main/java/com/bachtx/exampeservice/dto/response/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/example-service/src/main/java/com/bachtx/exampeservice/dto/response/BaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example-service/src/main/java/com/bachtx/exampeservice/dto/response/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/example-service/src/main/java/com/bachtx/exampeservice/dto/response/ErrorResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,15 +74,16 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/learning/pj4/wibu-project-spring/authentication-service/src/main/java/com/bachtx/authenticationservice/enums&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/learning/pj4/wibu-project-spring/example-service/src/main/java/com/bachtx/exampeservice/dto/response&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -96,6 +92,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\learning\pj4\wibu-project-spring\example-service\src\main\java\com\bachtx\exampeservice\dto\response" />
       <recent name="D:\learning\pj4\wibu-project-spring\authentication-service\src\main\java\com\bachtx\authenticationservice\enums" />
       <recent name="D:\learning\pj4\wibu-project-spring\authentication-service\src\main\java\com\bachtx\authenticationservice\dto\response" />
     </key>
@@ -152,7 +149,12 @@
       <workItem from="1707222483537" duration="6017000" />
       <workItem from="1707261557004" duration="2944000" />
       <workItem from="1707285424107" duration="8998000" />
-      <workItem from="1707397583030" duration="4924000" />
+      <workItem from="1707397583030" duration="4975000" />
+      <workItem from="1707443452172" duration="11311000" />
+      <workItem from="1707564317007" duration="637000" />
+      <workItem from="1707567283324" duration="494000" />
+      <workItem from="1707567786758" duration="3629000" />
+      <workItem from="1707572427822" duration="37000" />
     </task>
     <servers />
   </component>
